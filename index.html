@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Panda Talk</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>PandaWorld</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>10:05</span>
+			</div>
+			<div class="status-bar__column">
+				<span>98%</span>
+				<i class="fas fa-battery-full fa-lg"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="welcome-header">
+			<h1 class="welcome-header__title">판다톡</h1>
+			<p class="welcome-header__text">계정이 있으시면, 로그인 해주세요</p>
+		</header>
+
+		<form action="friends.html" method="get" id="login-form">
+			<input name="username" type="text" placeholder="아이디" />
+			<input name="password" type="password" placeholder="비밀번호" />
+			<input type="submit" value="로그인" />
+			<a href="#">저는 계정이 없습니다</a>
+		</form>
+
+		<div id="no-mobile">
+			<span>🐼 인터넷 창 크기를 줄여주세요 </span>
+		</div>
+
+		<script
+			src="https://kit.fontawesome.com/b5ac015c11.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
